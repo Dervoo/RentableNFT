@@ -239,3 +239,4 @@ contract RentableNFT is ERC721, IERC4907, Ownable {
 }
 // Note 1: ORACLE DeFi??? Unknown && Who will borrow, who will call setUser? && Add approva to the new owner for the token???
 // Note 2: When it performs the validTimeoutTransfer function during the loan (setUser), the address that had the token remains in userOf.
+// Note 3: Create timelocked function which returns x days estimate, then use it to be the guarantee for renting - approach
